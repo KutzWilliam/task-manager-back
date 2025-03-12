@@ -20,14 +20,6 @@ To-Do List API where users can create, retrieve, update, and delete tasks using 
   POSTGRES_PASSWORD=your_password
   POSTGRES_DB=todolist
   ```
-- Create a **Task** entity with the following fields:
-  - `id`: auto-generated unique identifier (UUID or number).
-  - `title`: string, required.
-  - `description`: string, optional.
-  - `status`: enum with values like "pending", "in-progress", "completed".
-  - `createdAt`: timestamp of when the task was created (default to current time).
-  - `updatedAt`: timestamp of when the task was last updated (auto-update).
-  - `deletedAt`: timestamp of when the task was last deleted.
 
 ## API Endpoints
 
